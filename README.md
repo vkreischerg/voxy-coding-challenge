@@ -3,7 +3,7 @@
 The challenge consists of creating a user-facing form that counts the number of words in a block of text.
 
 ### Installing dependencies
-**Python > 3.6** is required in order to run the web app.
+**Python >= 3.6** is required in order to run the web app.
 The package dependencies might be installed running:
 ```bash
 pip install -r requirements.txt
