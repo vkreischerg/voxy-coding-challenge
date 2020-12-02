@@ -29,7 +29,6 @@
       <form id="form" class="p-5">
         {% csrf_token %}
         <textarea
-          placeholder="Enter your text here"
           class="form-control mb-4"
           id="input-area"
           name="text"
@@ -40,7 +39,7 @@
         <button type="submit" class="btn btn-primary">Count Words</button>
       </form>
       <p class="text-center mt-2" style="font-family: 'Press Start 2P', cursive;">
-        Word counting: <span id="result">{{number_words}}</span>
+        Number of words: <span id="result">{{number_words}}</span>
       </p>
     </div>
 
